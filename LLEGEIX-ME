@@ -1,0 +1,36 @@
+INSTRUCCIONS
+
+1.  
+    a) git branch branca00
+    b) git checkout branca00
+    c) git status (git branch)
+5.
+    git checkout main
+    git status
+    git log
+    git log main..branca00
+7.
+    git checkout branca00
+10.
+    b) git merge branca00
+12.
+    a) git push origin main (or git push)
+
+
+
+14.
+    a) git push origin branca01
+
+
+RESPOSTES
+
+6.
+    No puc veure l'última línia afegida perquè el canvi s'ha fet a la branca branca00 i jo em trobo a la branca main en aquest moment.
+
+7.
+    Ara ja puc veure els canvis perquè em trobo a la branca branca00.
+
+12.
+    c) Perquè he fet un push únicament de main.
+14.
+    c) A un commit. Ho diu a github "This branch is 1 commit ahead of main". També es pot comprovar amb git log main..branca01. 
